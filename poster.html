@@ -12,7 +12,22 @@
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
 	<script src="js/jquery.colorbox.js"></script>
-	<script src="js/wow.js"></script>
+	<script src="js/wow.js"></script><script>
+		$(document).ready(function(){
+			/*$(".toggleMenu").on("click",function(){});*/
+			$(".toggleMenu").click(function(){
+				var myClass = $(this).attr("class");
+				console.log(myClass);
+				if(myClass == "toggleMenu"){
+					$(".toggleMenu").addClass("change");
+					$("#main_menu").stop().animate({right:0},300);
+				}else{
+					$(".toggleMenu").removeClass("change");
+					$("#main_menu").stop().animate({right:"-100%"},300);
+				}
+			})
+		})
+	</script>
 	</head>
 <body>
 	<header id="sub_header">
@@ -22,11 +37,16 @@
 				<ul class="clearfix">
 					<li><a href="introduce.html">재단소개</a></li>
 					<li><a href="information.html">축제정보</a></li>
-					<li><a href="news.html">재단소식</a></li>
-					<li><a href="data.html" class="active">자료실</a></li>
+					<li><a href="news.html" class="active">재단소식</a></li>
+					<li><a href="data.html">자료실</a></li>
 					<li><a href="business-history.html">머드화장품</a></li>
 				</ul>
 			</nav>
+			<div class="toggleMenu change">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
 		</div>
 		<div class="sub_header">
 			<div class="sub_top animated bounceInDown">

@@ -692,6 +692,8 @@ header#sub_header {
 	margin: 0 auto;
 	margin-bottom: 80px;
 	border-bottom: 3px solid #d70051;
+	background-color: #392b22;
+	_min-width: 960px;
 }
 #header_top {
 	width: 100%;
