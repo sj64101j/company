@@ -232,6 +232,9 @@ header#sub_header {
 	color: #fff;
 	line-height: 36px;
 }
+.content>ul>li.content3th_1 {
+	display: none;
+}
 .content>ul>li.content5th{
 	height: 630px;
 }
