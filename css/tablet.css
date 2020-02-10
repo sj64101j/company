@@ -282,13 +282,11 @@ div.bx-viewport {
 	position: absolute;
 	bottom: 18%;
 	margin-top: -40px;
-	right: 100px;
+	right: 10%;
 }
 .content>ul>li.content3th a {
-	position: absolute;
-	top: 0;
-	left: 80px;
-	padding-top: 50px;
+	
+	padding-top: 100px;
 	padding-left: 50px;
 }
 .content>ul>li.content3th a h3 {
@@ -297,8 +295,10 @@ div.bx-viewport {
 	font-weight: normal;
 	text-align: center;
 	margin-bottom: 40px;
+	padding-top: 35px;
 }
 .content>ul>li.content3th a p {
+	text-align: center;
 	font-size: 18px;
 	color: #fff;
 	line-height: 36px;
