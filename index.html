@@ -68,8 +68,15 @@
 					$("#main_menu").css({right:"-100%"});
 				}
 			});
-			
-			
+			var wSize = $(window).width();
+			console.log(wSize);
+			if(wSize < 960){
+				$(".contest2th").removeClass("wow fadeIn").css({"animation-delay":0,"animation-name":"none"}).attr("data-wow-delay","0s");
+				$(".contest3th").removeClass("wow fadeIn").css({"animation-delay":0,"animation-name":"none"}).attr("data-wow-delay","0s");
+				$(".contest4th").removeClass("wow fadeIn").css({"animation-delay":0,"animation-name":"none"}).attr("data-wow-delay","0s");
+				$(".contest5th").removeClass("wow fadeIn").css({"animation-delay":0,"animation-name":"none"}).attr("data-wow-delay","0s");
+
+			}
 		});
 	</script>
 	
