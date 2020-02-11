@@ -534,6 +534,7 @@ div.bx-viewport {
 .contest ul>li {
 	float: left;
 	width: 50%;
+	height: 315px;
 	overflow: hidden;
 }
 .contest ul>li:hover {
@@ -615,7 +616,7 @@ div.bx-viewport {
 /*notice*/
 .notice {
 	width: 100%;
-	height: 560px;
+	height: 450px;
 	margin-bottom: 30px;
 }
 .notice ul>li {
