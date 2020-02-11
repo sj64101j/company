@@ -704,13 +704,13 @@ div.bx-viewport {
 .gnb>ul>li {
 	float: left;
 	width: 25%;
-	height: 70px;
+	height: 60px;
 	border-right: 3px solid #534135;
 }
 .gnb>ul>li.make-up {
 	float: left;
 	width: 33.33%;
-	height: 70px;
+	height: 60px;
 	border-right: 3px solid #534135;
 }
 .gnb>ul>li:nth-child(4) {
@@ -723,7 +723,7 @@ div.bx-viewport {
 	display: block;
 	font-size: 20px;
 	color: #fff;
-	line-height: 70px;
+	line-height: 60px;
 	text-align: center;
 	background-color: #604c3e;
 }

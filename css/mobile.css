@@ -735,7 +735,7 @@ div.bx-viewport {
 }
 .gnb>ul>li.make-up {
 	float: left;
-	width: 100%;
+	width: 33.33%;
 	height: 50px;
 	border-right: 3px solid #534135;
 }
