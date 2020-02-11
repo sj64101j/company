@@ -481,7 +481,7 @@ div.bx-viewport {
 .container .vision li:last-child {
 	margin-right: 0;
 }
-.container .vision li:hover {
+//.container .vision li:hover {
 	box-shadow: 8px 8px 10px rgba(0,0,0,0.5); /*그림자*/
 	transform: translate(-10px,10px); /*튀어나오는 것 같은 효과*/
 	transition: .3s;
